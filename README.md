@@ -1,1 +1,2 @@
-A simple ftp transfer script 
+A simple ftp script 
+
