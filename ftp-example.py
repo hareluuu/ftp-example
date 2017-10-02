@@ -14,7 +14,6 @@ print(os.getcwd())
 
 filename = input("Enter the name of the file you want to download: ")
 
-
 while True:
     try:
         server.retrbinary("RETR " + filename, open(filename, "wb").write)
@@ -23,7 +22,3 @@ while True:
         print(e)
         filename = input("Try again: ")
         continue
-
-
-
-
